@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor e Analista de Dados</title>
+    <style>
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(0, 0, 0);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgb(242, 245, 245);
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(32, 122, 163);
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+
+        /* Seção Sobre */
+        #sobre {
+            background-color: rgb(3, 3, 3);
+            padding: 50px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        #sobre h1 {
+            margin-bottom: 20px;
+            color: aqua;
+        }
+
+        #sobre p {
+            font-size: 18px;
+            color: aqua;
+        }
+
+        /* Seção Habilidades */
+        #habilidades {
+            background-color: rgb(32, 122, 163);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #habilidades h2 {
+            margin-bottom: 20px;
+        }
+
+        #habilidades ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #habilidades li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        /* Banner de apresentação */
+        .faixa {
+            width: 100%;
+            height: 200px;
+            background-image: url('lucas.webp');
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: rgb(0, 0, 0);
+        }
+
+        .faixa h2 {
+            color: aqua;
+        }
+        
+        /* Seção Projetos */
+        #projetos {
+            background-color: rgb(9, 56, 56);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #projetos h2 {
+            margin-bottom: 30px;
+        }
+
+        .projeto {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(32, 122, 163);
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .projeto:hover {
+            background-color: rgb(9, 56, 56);
+        }
+        .sobre:hover {
+            background-color: #375a5f;
+        }
+        .projeto h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Seção Contato */
+        #contato {
+            background-color: rgb(42, 140, 165);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #contato form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        #contato label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        #contato input, #contato textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        #contato button {
+            padding: 10px;
+            background-color: rgb(32, 122, 163);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #contato button:hover {
+            background-color: rgb(255, 255, 255);
+        }
+
+        #mensagem-sucesso {
+            margin-top: 10px;
+            color: rgb(19, 89, 92);
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="display: flexbox; align-items: center;" id="sobre">
+        <h1>Bem-vindo ao meu Portfólio!</h1>
+        <p>Sou um desenvolvedor e analista de dados com conhecimento em várias tecnologias e análise de dados para Análise e Desenvolvimento.</p>
+    </section>
+
+    <section id="habilidades">
+        <div class="faixa">
+            <h2>Olá, Tech Recruiter! Bem-vindo ao meu Perfil Profissional</h2>
+        </div>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Desenvolvimento Web (HTML, CSS, JavaScript, PHP)</li>
+            <li>Banco de Dados (SQL, MySQL)</li>
+            <li>Análise de Dados (Python, Power BI, Excel)</li>
+            <li>Ferramentas de Visualização de Dados (Power Automate, Power BI)</li>
+            <li>Desenvolvimento Back-End: Java, Python, PHP, JavaScript (React.js, Next.js)</li>
+        </ul>
+    <section id="sobre">
+        <div style="border-radius: 15px;" class="sobre">
+            <h2>
+                Lucas Quincas - Estudante  e Engenheiro de Software
+            </h2>
+            <p>Olá sou Estudante de Analise e Desenvolvimento de Sistemas Atualmente Já possuo conhecimentos em 4 Linguagens de Programação</p>
+                    <ul style="color: aqua; background-color: #333; border-radius: 15px; "><p style="color: rgb(255, 255, 255);">Linguagens da Programção</p>
+                        <li> Java </li>
+                        <li> Java Script(Next.JS e React.JS) </li>
+                        <li> PHP </li>
+                        <li> Python </li>
+                    </ul>
+                    <ul style="color: aqua; background-color: #333; border-radius: 15px;"  ><p style="color: rgb(255, 255, 255)">Banco de Dados</p>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                        <li>JSON</li>
+                    </ul>
+                    <ul style="color: aqua; background-color: #333; border-radius: 15px;"><p style="color: rgb(252, 252, 252)"> Ciencia de Dados </p>
+                        <li>Power B.I</li>
+                        <li>Power Automate</li>
+                        <li>Excel</li>
+                    </ul>         
+        </div>
+    <section id="projeto" style="color: aqua; background-color: aqua; border-radius: 15px;">
+        <div class="projeto">
+            <h3>Projeto 1 - Caixa Eletrônico em Java</h3>
+            <p>Um sistema em Java utilizando biblioteca Swing para o front-end e Java para o back-end, com JSON para consistência dos dados.</p>
+            <a href="https://github.com/QuincasC0DER/Python-e-Java---Projetos/blob/main/CaixaEletronico.java" target="_blank" rel="noopener noreferrer">Acesse o código no GitHub</a>
+        </div>
+        
+        <div class="projeto">
+            <h3>Projeto 2 - Sistema de Gerenciamento de Artes em Python</h3>
+            <p>Desenvolvimento de um sistema usando Python e a biblioteca Tkinter para o front-end, Python para o back-end, e JSON para a consistência dos dados.</p>
+            <a href="https://github.com/QuincasC0DER/Python-e-Java---Projetos/blob/main/CodigoGerenciamentoArtes.py" target="_blank" rel="noopener noreferrer">Acesse o código no GitHub</a>
+        </div>
+    
+    </section>
+    <footer>
+        <p style="color: black;">Desenvolvido por Lucas Quincas - Desenvolvedor e Analista de Dados</p>
+    </footer>
+    <script> </script>
